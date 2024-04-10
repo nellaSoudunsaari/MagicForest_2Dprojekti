@@ -655,7 +655,6 @@ GameObject:
   - component: {fileID: 908413163}
   - component: {fileID: 908413166}
   - component: {fileID: 908413165}
-  - component: {fileID: 908413164}
   - component: {fileID: 908413167}
   m_Layer: 3
   m_Name: "\xC4ij\xE4"
@@ -745,10 +744,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8fa327f168b48cb479ace2a08e855d47, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_JumpForce: 500
+  m_JumpForce: 700
   m_CrouchSpeed: 0.36
   m_MovementSmoothing: 0.05
-  m_AirControl: 0
+  m_AirControl: 1
   m_WhatIsGround:
     serializedVersion: 2
     m_Bits: 119
@@ -761,41 +760,6 @@ MonoBehaviour:
   OnCrouchEvent:
     m_PersistentCalls:
       m_Calls: []
---- !u!58 &908413164
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 908413157}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.3}
-  serializedVersion: 2
-  m_Radius: 0.9804366
 --- !u!61 &908413165
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -828,7 +792,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.45195383}
+  m_Offset: {x: 0, y: -0.0059404373}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -839,7 +803,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.95, y: 1.6960922}
+  m_Size: {x: 1.95, y: 2.6118808}
   m_EdgeRadius: 0
 --- !u!50 &908413166
 Rigidbody2D:
