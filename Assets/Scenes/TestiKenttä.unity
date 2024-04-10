@@ -280,7 +280,7 @@ Transform:
   m_GameObject: {fileID: 470127930}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 10.7, y: -0.51, z: -0.036403455}
+  m_LocalPosition: {x: 10.7, y: 0.18, z: -0.036403455}
   m_LocalScale: {x: 4.6823, y: 0.9085, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -754,7 +754,7 @@ MonoBehaviour:
     m_Bits: 119
   m_GroundCheck: {fileID: 1579807740}
   m_CeilingCheck: {fileID: 1086278537}
-  m_CrouchDisableCollider: {fileID: 0}
+  m_CrouchDisableCollider: {fileID: 908413165}
   OnLandEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -770,7 +770,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 908413157}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: b6eaddc6a335a8945afe8d32617a92cd, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -856,7 +856,7 @@ CircleCollider2D:
   m_GameObject: {fileID: 908413157}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: b6eaddc6a335a8945afe8d32617a92cd, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -1305,7 +1305,7 @@ Transform:
   m_GameObject: {fileID: 1829957507}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.81, y: -3.04, z: -0.036403455}
+  m_LocalPosition: {x: 6.81, y: -1.95, z: -0.036403455}
   m_LocalScale: {x: 4.6823, y: 0.9085, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
