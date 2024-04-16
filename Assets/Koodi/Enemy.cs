@@ -15,12 +15,16 @@ public class Enemy : MonoBehaviour
         if(health <= 0)
         {
             Die();
+            DestroyEnemy();
         }
     }
 
     void Die()
     {
         Instantiate(deathEffect, transform.position, Quaternion.identity);
-        Destroy(gameObject);
+    }
+
+    public void DestroyEnemy() { 
+        Destroy(gameObject); 
     }
 }
