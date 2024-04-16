@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// Kommentoitu englanniksi, hups
 public class CameraFollow : MonoBehaviour
 {
     // defines the camera offset from the player

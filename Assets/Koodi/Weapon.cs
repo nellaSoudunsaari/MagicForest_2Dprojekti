@@ -10,6 +10,7 @@ public class Weapon : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // Ammusnappi (hiiren vasen nappi)
         if (Input.GetButtonDown("Fire1"))
         {
             Shoot();
@@ -18,6 +19,7 @@ public class Weapon : MonoBehaviour
 
     void Shoot()
     {
+        // Luo ammuksen/taikapallon
         Instantiate(magicPrefab, firePoint.position, firePoint.rotation);
     }
 }
