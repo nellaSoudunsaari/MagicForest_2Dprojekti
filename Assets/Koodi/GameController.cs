@@ -21,15 +21,17 @@ public class GameController : MonoBehaviour
         }
     }
 
-    // Itsest‰‰nselv‰‰?
+    // Siirt‰‰ pelaajan aloituskohtaan kuluneen ajan j‰lkeen 
     void Die()
     {
-        Respawn();
+        // Coroutine ilmeisesti suorittaa kaksi komentoa samanaikaisesti?
+        StartCoroutine(Respawn(0.25f));
     }
 
-    // Hakee aloituskohdan ja siirt‰‰ pelaajaan sijainnin sinne
-    void Respawn()
+    // Hakee aloituskohdan ja siirt‰‰ pelaajaan sijainnin sinne pienen tauon j‰lkeen
+    IEnumerator Respawn(float duration)
     {
+        yield return new WaitForSeconds(duration);
         transform.position = StartPos;
     }
 }
