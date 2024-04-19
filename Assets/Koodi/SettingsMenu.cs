@@ -10,4 +10,9 @@ public class SettingsMenu : MonoBehaviour
     {
         audioMixer.SetFloat("VolumeParam", volume);
     }
+
+    public void SetFullscreen(bool isFullscreen)
+    {
+        Screen.fullScreen = isFullscreen;
+    }
 }
