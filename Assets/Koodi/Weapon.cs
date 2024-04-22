@@ -11,7 +11,7 @@ public class Weapon : MonoBehaviour
     void Update()
     {
         // Ammusnappi (hiiren vasen nappi)
-        if (Input.GetButtonDown("Fire1"))
+        if (Input.GetButtonDown("Fire1") && PauseMenu.GameIsPaused == false)
         {
             Shoot();
         }

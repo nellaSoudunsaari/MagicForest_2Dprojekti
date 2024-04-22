@@ -9,4 +9,9 @@ public class LevelMenu : MonoBehaviour
     {
         SceneManager.LoadScene("TestiKenttä");
     }
+
+    public void MainMenu()
+    {
+        SceneManager.LoadScene("Menu");
+    }
 }
