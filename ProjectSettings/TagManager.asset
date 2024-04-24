@@ -7,6 +7,7 @@ TagManager:
   - Obstacle
   - Projectile
   - Enemy
+  - Boss
   layers:
   - Default
   - TransparentFX
@@ -15,7 +16,7 @@ TagManager:
   - Water
   - UI
   - Ground
-  - 
+  - Background
   - 
   - 
   - 
@@ -46,4 +47,7 @@ TagManager:
     locked: 0
   - name: UI
     uniqueID: 709037633
+    locked: 0
+  - name: Taso
+    uniqueID: 178752621
     locked: 0

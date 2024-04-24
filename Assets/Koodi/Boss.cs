@@ -1,8 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+// Viimeisen vihollisen scripti
+// Mahdollisesti turha, en ehtinyt alkaa testaamaan
 
-public class Enemy : MonoBehaviour
+public class Boss : MonoBehaviour
 {
     public int health = 100;
 
@@ -13,7 +15,7 @@ public class Enemy : MonoBehaviour
     {
         health -= damage;
 
-        if(health <= 0)
+        if (health <= 0)
         {
             Die();
             DestroyEnemy();
@@ -27,7 +29,8 @@ public class Enemy : MonoBehaviour
     }
 
     // Tuhoaa esineen
-    public void DestroyEnemy() { 
-        Destroy(gameObject); 
+    public void DestroyEnemy()
+    {
+        Destroy(gameObject);
     }
 }

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: cab3af8cda52cd94497498de7c4a966b
+guid: 67e02aa03c2b19d42b0083eb50940aab
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -95,7 +95,70 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: PauseMenu2_0
+      rect:
+        serializedVersion: 2
+        x: 2076
+        y: 1898
+        width: 212
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c7335a3339397b4ead8fd49bb895623
+      internalID: 663282523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PauseMenu2_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2264
+        width: 1007
+        height: 603
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56013ba2b31c46a44abb0175fcc3d56b
+      internalID: 729542193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PauseMenu2_2
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 2287
+        width: 710
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 374ae8b123dc76547bcd5eed5fae07ca
+      internalID: 720046059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -106,7 +169,10 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      PauseMenu2_0: 663282523
+      PauseMenu2_1: 729542193
+      PauseMenu2_2: 720046059
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

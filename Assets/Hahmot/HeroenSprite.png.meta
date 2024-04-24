@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c503429dea2f5114bbd11a01c6041983
+guid: 9b26a22df822f19499107340ab56097c
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 200
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -97,181 +97,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PauseMenu_0
+      name: HeroenSprite_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 2317
-        width: 550
-        height: 550
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 768ce07a81ff94a41ad818d61a446e6d
-      internalID: 1066002319
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PauseMenu_1
-      rect:
-        serializedVersion: 2
-        x: 1738
-        y: 2317
-        width: 550
-        height: 550
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1adfdbcfb1ccfac49ab6beae693a6f76
-      internalID: 1882167997
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PauseMenu_2
-      rect:
-        serializedVersion: 2
-        x: 1738
-        y: 0
-        width: 550
-        height: 550
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 440230a45618a7a49863bc09a3804465
-      internalID: -1532304130
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PauseMenu_3
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 550
-        height: 550
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1908116c06e108e4b8fe83a6bc1516a7
-      internalID: -1202018399
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PauseMenu_4
-      rect:
-        serializedVersion: 2
-        x: 549
-        y: 2320
-        width: 1190
-        height: 547
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8b181334e012e9b448ded231876fc9e6
-      internalID: -125042326
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PauseMenu_5
-      rect:
-        serializedVersion: 2
-        x: 549
-        y: 4
-        width: 1187
-        height: 550
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b454dfa45d52dd6429c24c63f19a7226
-      internalID: -1566530465
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PauseMenu_6
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 2288
-        height: 2317
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0301fa905ffe6db4280cc43cbdb121f6
-      internalID: 1843542716
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PauseMenu_7
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 2288
-        height: 2867
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 072ca9b152d742d45b82b533740e1e68
-      internalID: -1194681581
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PauseMenu_8
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 554
-        width: 1144
-        height: 1766
+        x: 66
+        y: 1346
+        width: 280
+        height: 652
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -279,20 +111,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eec37c7fa9805904596fdbfea807bc60
-      internalID: -1003745025
+      spriteID: 9723ded0544bc2c44bd4d2f29ce66f28
+      internalID: 319977229
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PauseMenu_9
+      name: HeroenSprite_1
       rect:
         serializedVersion: 2
-        x: 1137
-        y: 554
-        width: 1144
-        height: 1763
+        x: 397
+        y: 1334
+        width: 297
+        height: 661
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -300,8 +132,176 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c3bb2ded3016acf45bffff88398b350c
-      internalID: -647972627
+      spriteID: 9c3dff9dbf1916e49a68e5fd94fb8139
+      internalID: 1191715610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroenSprite_2
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 1333
+        width: 279
+        height: 660
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8446adac00999d3418240a04718ed0fd
+      internalID: -2140800542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroenSprite_3
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 1322
+        width: 279
+        height: 663
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a326c6a87a8cd7f4f81b81dc31a6089a
+      internalID: -440786219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroenSprite_4
+      rect:
+        serializedVersion: 2
+        x: 1327
+        y: 1330
+        width: 279
+        height: 663
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b2c37defe1ae8a4ab38fbbc85e39cfd
+      internalID: 2047783188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroenSprite_5
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 1340
+        width: 315
+        height: 660
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b9de34088b9cda4aaa9236c5b8f5182
+      internalID: 1096491890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroenSprite_6
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 652
+        width: 306
+        height: 678
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73f883c5faf1feb4792cab7948cd7422
+      internalID: -906021341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroenSprite_7
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 637
+        width: 324
+        height: 678
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 641df53e81ab6a4499ab01188c896021
+      internalID: -2028891373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroenSprite_8
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 642
+        width: 338
+        height: 677
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95b418c9699aff243a30606ba5ced6eb
+      internalID: 1050951198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeroenSprite_9
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 612
+        width: 373
+        height: 674
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfd4291218e1c1e4190b18e1e38a646c
+      internalID: 454805483
       vertices: []
       indices: 
       edges: []
@@ -317,16 +317,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      PauseMenu_0: 1066002319
-      PauseMenu_1: 1882167997
-      PauseMenu_2: -1532304130
-      PauseMenu_3: -1202018399
-      PauseMenu_4: -125042326
-      PauseMenu_5: -1566530465
-      PauseMenu_6: 1843542716
-      PauseMenu_7: -1194681581
-      PauseMenu_8: -1003745025
-      PauseMenu_9: -647972627
+      HeroenSprite_0: 319977229
+      HeroenSprite_1: 1191715610
+      HeroenSprite_2: -2140800542
+      HeroenSprite_3: -440786219
+      HeroenSprite_4: 2047783188
+      HeroenSprite_5: 1096491890
+      HeroenSprite_6: -906021341
+      HeroenSprite_7: -2028891373
+      HeroenSprite_8: 1050951198
+      HeroenSprite_9: 454805483
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

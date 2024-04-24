@@ -7,9 +7,11 @@ public class MainMenu : MonoBehaviour
 {
     public void PlayGame()
     {
-        SceneManager.LoadScene("TasonValinta");
+        // N‰ytt‰‰ ensin pelin tarinan, jonka j‰lkeen lataa tasojen valinnan
+        SceneManager.LoadScene("Dialogi");
     }
 
+    // Nosiis
     public void QuitGame()
     {
         Debug.Log("Game quit");

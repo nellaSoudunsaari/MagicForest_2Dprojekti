@@ -23,6 +23,7 @@ public class PauseMenu : MonoBehaviour
         }
     }
 
+    // Palauttaa pelin kulun ja n‰ytt‰‰ pause menun
     public void Resume()
     {
         pauseMenuUI.SetActive(false);
@@ -30,6 +31,7 @@ public class PauseMenu : MonoBehaviour
         GameIsPaused = false;
     }
 
+    // Pys‰ytt‰‰ pelin kulun
     void Pause()
     {
         pauseMenuUI.SetActive(true);
@@ -40,5 +42,17 @@ public class PauseMenu : MonoBehaviour
     public void QuitGame()
     {
         SceneManager.LoadScene("Menu");
+    }
+
+    // Aika huonosti tehtty mutta tuli kiire
+    public void NextLevel()
+    {
+        SceneManager.LoadScene("Taso2");
+        Time.timeScale = 1f;
+    }
+    public void NextLevel2()
+    {
+        SceneManager.LoadScene("Taso3");
+        Time.timeScale = 1f;
     }
 }

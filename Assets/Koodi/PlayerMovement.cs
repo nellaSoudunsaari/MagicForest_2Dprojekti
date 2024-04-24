@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    // Hakee CharacterControllerin ja animaattorin
     public CharacterController2D controller;
     public Animator animator;
 
@@ -52,6 +53,9 @@ public class PlayerMovement : MonoBehaviour
         animator.SetBool("IsCrouching", isCrouching);
     }
 
+    // FixedUpdatea käytetään tässä tilanteessa, jotta päivitys
+    // toimisi yhtäaikaisesti Unityn PhysicsEnginen kanssa,
+    // tällöin fysiikka suoriutuu paremmin
     private void FixedUpdate()
     {
         // Liikuta hahmoa

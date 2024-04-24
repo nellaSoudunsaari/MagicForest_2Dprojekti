@@ -21,10 +21,10 @@ public class GameController : MonoBehaviour
         }
     }
 
-    // Siirt‰‰ pelaajan aloituskohtaan kuluneen ajan j‰lkeen 
+    // Siirt‰‰ pelaajan aloituskohtaan kuluneen ajan ja suoritetun
+    // rutiinin j‰lkeen, rutiini on m‰‰ritelty IEnumerator-funktiossa 
     void Die()
     {
-        // Coroutine ilmeisesti suorittaa kaksi komentoa samanaikaisesti?
         StartCoroutine(Respawn(0.25f));
     }
 
